@@ -2,6 +2,7 @@
 """
 https://en.wikipedia.org/wiki/Quindar_tones
 """
+from quindar_tones import genquindar,gentoneremote
 from pynput.keyboard import Key, Listener
 import pygame
 
