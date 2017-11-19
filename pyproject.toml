@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "quindar_tones"
+author = "Michael Hirsch, Ph.D."
+author-email = "scivision@users.noreply.github.com"
+home-page = "https://github.com/scivision/quindar-tones"
+
+requires=['pygame']
+requires-python='>=3.6'
+
+description-file='README.rst'
+classifiers=[
+'Development Status :: 3 - Alpha',
+'License :: OSI Approved :: MIT License',
+'Programming Language :: Python']
+
