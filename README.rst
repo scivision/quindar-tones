@@ -14,7 +14,7 @@ Install
 =======
 ::
 
-    flit install -s
+    pip install -e .
 
 
 Usage
