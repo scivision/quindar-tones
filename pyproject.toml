@@ -8,12 +8,12 @@ author = "Michael Hirsch, Ph.D."
 author-email = "scivision@users.noreply.github.com"
 home-page = "https://github.com/scivision/quindar-tones"
 
-requires=['pygame']
-requires-python='>=3.6'
+requires=['pygame','numpy']
+requires-python='>=2.7'
 
 description-file='README.rst'
 classifiers=[
-'Development Status :: 3 - Alpha',
+'Development Status :: 4 - Beta',
 'License :: OSI Approved :: MIT License',
 'Programming Language :: Python']
 

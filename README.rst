@@ -2,11 +2,13 @@
 quindar-tones
 =============
 
-Generate Quindar tones used by NASA for decades as in-band PTT signaling
+Generate tones on keypress including:
 
-* left-arrow: 2525 Hz
-* right-arrow: 2475 Hz
-* up-arrow: tone remote leadin 2175 1950 Hz
+* Quindar tones used by NASA for decades as in-band PTT signaling
+* Motorola tone remote
+* Nextel chirp
+
+:prereqs: Python 3 or 2.7, PyGame, Numpy
 
 Install
 =======
@@ -15,10 +17,17 @@ Install
     flit install -s
 
 
-TODO
-====
+Usage
+=====
+::
 
-Need to switch to PyGame key handling. 
-Pynput locks at 100% CPU (one core)!
+    python keytones.py
+
+
+
+* left-arrow: 2525 Hz
+* right-arrow: 2475 Hz
+* up-arrow: tone remote leadin 2175 1950 Hz
+* down-arrow: Nextel chirp 1800 Hz bips
 
 
