@@ -1,6 +1,4 @@
 """Simulate two-way radio in-band signaling tones"""
-from __future__ import division
-__version__ = '0.1.0'
 import numpy as np
 import pygame
 
