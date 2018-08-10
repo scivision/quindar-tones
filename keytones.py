@@ -18,7 +18,7 @@ def main():
     S0, S1 = quindar_tones.genquindar()
     Sr = quindar_tones.gentoneremote()
     Sn = quindar_tones.nextel_chirp()
-    
+
     print('Press Esc to stop')
 
     while True:
